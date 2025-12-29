@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUTTER//NET</title>
+
+    <!-- Correct CSS path -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="home-body">
+
+    <!-- Background layers -->
+    <div class="bg-overlay bg-noise"></div>
+    <div class="bg-overlay bg-scanlines"></div>
+    <div class="bg-overlay bg-gradient"></div>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="logo">
+            <span class="logo-main">GUTTER<span class="logo-accent">//NET</span></span>
+            <span class="logo-sub">A neural story archive</span>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-main">
+            <a href="index.html" class="nav-link nav-link-active">Home</a>
+            <a href="stories.html" class="nav-link">Stories</a>
+            <a href="#" class="nav-link">About</a>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-btn" aria-label="Open Menu">
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+        </button>
+
+        <!-- Slide-Out Mobile Menu -->
+        <div class="mobile-menu">
+            <a href="index.html" class="mobile-menu-link">Home</a>
+            <a href="stories.html" class="mobile-menu-link">Stories</a>
+            <a href="#" class="mobile-menu-link">About</a>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="home-main">
+        <section class="hero">
+
+            <div class="hero-text">
+                <p class="hero-kicker">UNAUTHORIZED SIGNAL // STORY NODE DETECTED</p>
+
+                <h1 class="hero-title">
+                    Stories from a city
+                    <span class="hero-title-glitch">that knows you're watching</span>
+                </h1>
+
+                <p class="hero-description">
+                    This is an archive of futures that were sabotaged from the start—gods buried in firmware, 
+                    alleys that pray back, and cities that dream in broken, recursive code.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="stories.html" class="btn btn-primary">
+                        Enter archive
+                        <span class="btn-sub">Access story index</span>
+                    </a>
+
+                    <button class="btn btn-ghost" type="button">
+                        Random glitch
+                        <span class="btn-sub">Distort the interface</span>
+                    </button>
+                </div>
+            </div>
+
+            <aside class="hero-terminal" aria-label="System status">
+                <div class="terminal-header">
+                    <span class="terminal-dot dot-red"></span>
+                    <span class="terminal-dot dot-yellow"></span>
+                    <span class="terminal-dot dot-green"></span>
+                    <span class="terminal-title">/boot/gutter-net.log</span>
+                </div>
+
+                <div class="terminal-body">
+                    <p>&gt; BOOTING NEURAL GUTTER…</p>
+                    <p>&gt; SCANNING FOR INSTALLED STORIES…</p>
+                    <p>&gt; FOUND: <span class="term-highlight">THE GOD IN THE GUTTER</span></p>
+                    <p>&gt; STATUS: <span class="term-status-online">ONLINE</span></p>
+                    <p>&gt; AWAITING NEW UPLOADS…</p>
+                </div>
+            </aside>
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <span class="footer-text">
+            SIGNAL: weak · DIVINITY: leaking into street augments · VIEWER: connected
+        </span>
+    </footer>
+
+    <!-- Correct JS path -->
+    <script src="js/script.js"></script>
+</body>
+</html>

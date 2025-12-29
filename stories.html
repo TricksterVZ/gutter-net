@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Story Archive – GUTTER//NET</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Correct CSS path -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Background layers -->
+  <div class="bg-overlay bg-noise"></div>
+  <div class="bg-overlay bg-scanlines"></div>
+  <div class="bg-overlay bg-gradient"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-main">GUTTER<span class="logo-accent">//NET</span></span>
+      <span class="logo-sub">A neural story archive</span>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="nav-main">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="stories.html" class="nav-link nav-link-active">Stories</a>
+      <a href="#" class="nav-link">About</a>
+    </nav>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-btn" aria-label="Open Menu">
+      <span class="menu-bar"></span>
+      <span class="menu-bar"></span>
+      <span class="menu-bar"></span>
+    </button>
+
+    <!-- Slide-Out Mobile Menu -->
+    <div class="mobile-menu">
+      <a href="index.html" class="mobile-menu-link">Home</a>
+      <a href="stories.html" class="mobile-menu-link">Stories</a>
+      <a href="#" class="mobile-menu-link">About</a>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="archive-main">
+    <h1 class="archive-title">Story Archive</h1>
+    <p class="archive-description">
+      Nodes recovered from the neural gutter.<br>
+      More stories will be added as they surface.
+    </p>
+
+    <section class="story-grid">
+
+      <!-- Story Card 1 -->
+      <a href="stories/god-in-the-gutter.html" class="story-card" data-glyph="⟐">
+        <h2 class="story-card-title">THE GOD IN THE GUTTER</h2>
+        <p class="story-card-meta">Status: Online · Horror / Cyberpunk</p>
+        <p class="story-card-desc">
+          A firmware god wakes inside a stolen street implant and begins rewriting the city.
+        </p>
+      </a>
+
+      <!-- Future stories -->
+      <a href="#" class="story-card disabled" data-glyph="⟡">
+        <h2 class="story-card-title">UPCOMING NODE</h2>
+        <p class="story-card-meta">Status: Locked</p>
+        <p class="story-card-desc">Awaiting signal…</p>
+      </a>
+
+      <a href="#" class="story-card disabled" data-glyph="⟁">
+        <h2 class="story-card-title">UPCOMING NODE</h2>
+        <p class="story-card-meta">Status: Locked</p>
+        <p class="story-card-desc">Awaiting signal…</p>
+      </a>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span class="footer-text">
+      ARCHIVE STATUS: active · NEW STORIES: pending · SIGNAL: unstable
+    </span>
+  </footer>
+
+  <!-- Correct JS path -->
+  <script src="js/script.js"></script>
+</body>
+</html>
